@@ -3,7 +3,7 @@
 # C PETERSON - 2021
 ########################
 # Example of getting low-fecundity stock-recruit params for Sandbar shark
-#
+# from Taylor et al. (2013)
 
 # length of simulation
 years <- 1000

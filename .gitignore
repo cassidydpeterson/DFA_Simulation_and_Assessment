@@ -28,3 +28,6 @@ vignettes/*.pdf
 .Renviron
 SB_Simulation.R
 DFA_Simulation.Rproj
+ATL_SN_FEMALE_SurvivalSR_LogErr_DFA_Simulation.R
+Create_SS_Dat_Files_SB.R
+CreateSSDatFilesFromSimulation.R

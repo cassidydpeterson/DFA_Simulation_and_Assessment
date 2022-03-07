@@ -25,7 +25,7 @@ yrs = 51:90
 
   # DEFINE c VECTOR -- this will have to be determined iteratively, start with something basic
 # c = c(5, 5, 5, 5, 5, 5, 5) #
-c = c(18, 360, 1, 0.45, 10.5, 0.79, 0.37) # end 
+c = c(18, 360, 1, 0.45, 10.5, 0.79, 0.37) # ending point
 
 
   dat = dat.a * c # multiply dat.a by vector of constants (c)
@@ -43,7 +43,7 @@ c = c(18, 360, 1, 0.45, 10.5, 0.79, 0.37) # end
 
   # REQUIREMENTS FOR C -- change c vector 
   y.bar # means must be >0 (otherwise demeaning will change sign/direction of index); means should be >1; ideally >~2 (which isn't always possible)
-  gsd # gsd should be small! <~0.1
+  gsd # gsd should be small! <<~0.5
   apply(dat.z, 1, sd, na.rm=T) # MOST IMPORTANT DIAGNOSTIC: sd should be 1.
   # this rescalign approach is to approximate a z-score. 
   # if sd for an index is <1, then increase corresponding element in c matrix; vice versa || index specific c values

@@ -24,8 +24,8 @@ yrs = 51:90
 
 
   # DEFINE c VECTOR -- this will have to be determined iteratively, start with something basic
-  c = c(18, 360, 1, 0.45, 10.5, 0.79, 0.37) #
 # c = c(5, 5, 5, 5, 5, 5, 5) #
+c = c(18, 360, 1, 0.45, 10.5, 0.79, 0.37) # end 
 
 
   dat = dat.a * c # multiply dat.a by vector of constants (c)
